@@ -14,6 +14,7 @@ import { Logo } from './Logo';
 
 function App() {
   return (
+
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
         <Grid minH="100vh" p={3}>
@@ -22,6 +23,7 @@ function App() {
             <Logo h="40vmin" pointerEvents="none" />
             <Text>
               Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
+              <h1><h1>HELLO</h1></h1>
             </Text>
             <Link
               color="teal.500"
